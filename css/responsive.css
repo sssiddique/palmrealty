@@ -1,0 +1,1172 @@
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (max-width: 1399px){
+
+	.custom_button_wrapper .button_wrap select, 
+	.custom_button_wrapper .button_wrap input {
+	    width: 185px !important;
+	}
+
+	.what_offer_wrapper .what_offer_content p br {
+		display: none !important;
+	}
+
+	.plam_para_wrapper .plam_para_content p br {
+		display: none !important;
+	}
+
+	.communities_wrapper .communities_gallery_wrap figure img {
+	    width: 97% !important;
+	}
+
+	.home_evaluation_wrapper .home_evaluation_wrap label {
+	    max-width: 260px !important;
+	}
+
+	.get_touch_wrapper .get_touch_social {
+	    top: 0% !important;
+	}
+
+	.custom_button_wrapper .button_wrap .nice-select, .custom_button_wrapper .button_wrap input {
+	    width: 190px;
+	}
+
+	.meet_team_wrapper .team_slider .owl-next {
+        right: 35% !important;
+    }
+
+
+}
+
+@media (min-width: 1200px) {
+ 
+	.container {
+		max-width: 1340px;
+	}
+
+}
+
+@media (max-width: 1199px) {
+
+	body {
+	    font-size: 18px !important;
+	} 
+
+	.container {
+        max-width: 100% !important;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+
+	header {
+	    padding: 30px 0 30px 0 !important;
+	}
+
+	header nav .menu li a {
+	    font-size: 14px !important;
+	    padding: 0 10px !important;
+	}
+
+	header nav .menu li a:hover::before {
+	    width: calc(100% - 20px) !important;
+	}
+
+	header nav .menu .dropdown_wrap .sub_menu li a::before {
+		left: 0 !important;
+	}
+
+	header nav .menu li a::before, 
+	header nav .menu li a.active::before {
+	    left: 10px !important;
+	}
+
+	.home_wrapper .logo img {
+	    max-width: 445px !important;
+	}
+
+	.home_wrapper .home_social li a img {
+	    max-width: 40px !important;
+	}
+
+	.home_wrapper .home_social {
+	    right: 36px !important;
+	    bottom: 30px !important;
+	}
+
+	.section_padding {
+        padding: 50px 20px;
+    }
+
+	.custom_button_wrapper {
+        padding: 35px 20px 50px 20px;
+    }
+
+	.custom_button_wrapper .button_wrap select, 
+	.custom_button_wrapper .button_wrap input {
+        width: 275px !important;
+    }
+
+    .about_order1 {
+    	-webkit-box-ordinal-group: 3;
+    	    -ms-flex-order: 2;
+    	        order: 2;
+    }
+
+    .about_order2 {
+    	-webkit-box-ordinal-group: 2;
+    	    -ms-flex-order: 1;
+    	        order: 1;
+    }
+
+    .about_section_wrapper .about_content p br {
+    	display: none !important;
+    }
+
+    .about_section_wrapper figure {
+    	padding: 30px 0 0 0 !important;
+    }
+
+    .custom_center {
+    	text-align: center !important;
+    }
+
+	.what_offer_wrapper {
+        padding: 0px 20px 50px 20px !important;
+    }
+
+    .what_offer_wrapper figure {
+    	padding: 0 !important;
+    }
+
+    .what_offer_wrapper figure .offer_img_mobile {
+		display: block !important;
+	}
+
+	.what_offer_wrapper figure .offer_img {
+		display: none !important;
+	}
+
+	.background_wrapper {
+		display: none !important;
+	}
+
+	.custom_col {
+	    max-width: 25% !important;
+	}
+
+	.mt_55 {
+	    margin-top: 30px !important;
+	}
+
+	.active_listings_wrapper .head_text02 {
+	    font-size: 35px !important;
+	}
+
+	.about_team_wrapper .about_team_item2 {
+	    margin: 72px 0px 0 30px !important;
+	}
+
+	.about_team_item .about_team_content {
+	    padding: 25px !important;
+	}
+
+	.about_team_item .about_team_content h3 {
+	    font-size: 20px !important;
+	}
+
+	.about_team_item .about_team_content .custom_btn {
+		width: 100% !important;
+		font-size: 20px !important;
+	}
+
+	.communities_wrapper .communities_right_box .custom_box {
+	    width: 335px !important;
+	}
+
+	.communities_wrapper .communitie_box {
+		padding-right: 30px !important;
+	}
+
+	.communities_wrapper .communitie_box p br {
+		display: none !important;
+	}
+
+	.mortage_calculator_wrapper form {
+	    padding: 50px 0 0 0 !important;
+	}
+
+	.blog_wrapper .blog_wrap {
+	    max-width: 100% !important;
+	}
+
+	.mortage_calculator_wrapper .payment_output_box {
+	    margin-top: 50px;
+	}
+
+	.meet_team_wrapper {
+        padding: 0 20px 50px 20px !important;
+    }
+
+	.meet_team_wrapper .team_slider .owl-dots {
+        left: 32% !important;
+    }
+
+	.meet_team_wrapper .team_slider .owl-next {
+        right: 36% !important;
+    }
+
+	.slider_wrapper {
+        padding: 0 20px 50px 20px !important;
+    }
+
+    .slider_wrapper .container {
+	    max-width: 100% !important;
+	}
+
+	footer {
+	    padding: 50px 20px !important;
+	}
+
+	.about_team_wrapper {
+        padding: 50px 20px 0 20px !important;
+    }
+
+	.blog_wrapper .pagination_wrap {
+	    margin-top: 50px !important;
+	}
+
+	.mortage_calculator_wrapper {
+	    padding: 50px 20px !important;
+	}
+
+	.mortage_calculator_wrapper .mortage_calculator_img_wrap {
+        padding: 50px 0 0 0;
+    }
+
+    .communities_wrapper {
+	    padding: 50px 20px !important;
+	}
+
+	.logo_wrapper {
+	    padding: 50px 20px !important;
+	}
+
+	.get_touch_wrapper .head_text02 {
+	    padding-bottom: 50px !important;
+	}
+
+	.meet_team_wrapper2 {
+		padding: 50px 20px !important;
+	}
+
+	.custom_button_wrapper .button_wrap .nice-select, .custom_button_wrapper .button_wrap input {
+        width: 210px;
+    }
+
+    .active_listings_wrapper .active_listings_item a span {
+    	font-size: 16px !important;
+    }
+
+    header nav .menu li a:hover::before, 
+    header nav .menu li a.active::before,
+    header nav .menu .dropdown_wrap .sub_menu li a:hover::before {
+	    left: 10px;
+		width: calc(100% - 20px);
+	}
+
+    .custom_btn {
+	    width: 240px;
+	    height: 65px;
+	    font-size: 18px;
+	}
+
+	.plam_para_wrapper .plam_para_content span {
+		font-size: 20px;
+	}
+
+	.plam_para_wrapper .plam_para_content p {
+	    font-size: 18px;
+	}
+
+	.head_text03 {
+	    font-size: 20px;
+	}
+
+	.custom_mt {
+    	margin-top: 30px !important;
+    }
+
+    .testimonial_wrapper h2 {
+    	font-size: 45px;
+    }
+
+    footer .footer_item span, 
+    footer .footer_item p, 
+    footer .footer_item .link {
+	    font-size: 18px;
+	}
+
+	.about_team_wrapper .about_team_item {
+	    max-width: 305px !important;
+	}
+
+}
+
+@media (max-width: 991px) {
+
+	header {
+        background: var(--White-color) !important;
+        height: 70px !important;
+        padding: 0 20px !important;
+        width: 100% !important;
+        display: -webkit-box !important;
+        display: -ms-flexbox !important;
+        display: flex !important;
+        -webkit-box-align: center !important;
+            -ms-flex-align: center !important;
+                align-items: center !important;
+    }
+
+	header nav {
+		display: -webkit-box !important;
+		display: -ms-flexbox !important;
+		display: flex !important;
+		-webkit-box-align: center !important;
+		    -ms-flex-align: center !important;
+		        align-items: center !important;
+		-webkit-box-pack: justify !important;
+		    -ms-flex-pack: justify !important;
+		        justify-content: space-between !important;
+	}
+
+	header .menu {
+		display: none !important;
+	}
+
+	header .header_social,
+	header .mobile_logo {
+		display: block !important;
+	}
+
+	header .header_social li {
+		display: inline-block !important;
+		margin-right: 30px !important;
+	}
+
+	.hamburger_menu {
+		display: block !important;
+	}
+
+	header .mobile_logo {
+		padding-right: 55px !important;
+	}
+
+	header .mobile_logo img {
+        max-width: 73px !important;
+    }
+
+    .offcavas_wrap {
+        position: fixed !important;
+        top: 0 !important;
+        left: -100%;
+        bottom: 0 !important;
+        width: 100% !important;
+        height: 100% !important;
+        background: var(--White-color) !important;
+        padding: 100px 20px !important;
+        display: block !important;
+        -webkit-transition: 0.4s all ease-in-out !important;
+        -o-transition: 0.4s all ease-in-out !important;
+        transition: 0.4s all ease-in-out !important;
+        z-index: 9999 !important;
+    }
+
+    .offcavas_wrap.open {
+    	left: 0 !important;
+    }
+
+    .offcavas_wrap ul li {
+    	display: block !important;
+    }
+
+    .offcavas_wrap ul li ul {
+    	margin-top: 10px;
+    }
+
+	.offcavas_wrap ul li ul li a {
+        padding: 5px 10px 5px 0px !important;
+        margin-left: 15px !important;
+    }
+
+    .offcavas_wrap ul li ul li a.active::before,
+    .offcavas_wrap ul li ul li a:hover::before {
+    	width: calc( 100% - 10px ) !important;
+    }
+
+    .offcavas_wrap ul li a[aria-expanded="true"] i {
+    	-webkit-transform: rotate(-180deg);
+    	    -ms-transform: rotate(-180deg);
+    	        transform: rotate(-180deg);
+    }
+
+    .offcavas_wrap ul li a i {
+    	margin-left: 5px;
+    	-webkit-transition: 0.4s all ease-in-out !important;
+        -o-transition: 0.4s all ease-in-out !important;
+        transition: 0.4s all ease-in-out !important;
+    }
+
+	.offcavas_wrap ul li a {
+        color: var(--Body-color) !important;
+        font-size: 16px !important;
+        display: inline-block !important;
+        padding: 10px 0 !important;
+        position: relative !important;
+        -webkit-transition: 0.4s all ease-in-out !important;
+        -o-transition: 0.4s all ease-in-out !important;
+        transition: 0.4s all ease-in-out !important;
+    }
+
+    .offcavas_wrap ul li a::before,
+    .offcavas_wrap ul li a.active::before {
+    	content: "" !important;
+    	position: absolute !important;
+    	bottom: 0 !important;
+    	left: 0 !important;
+    	width: 0;
+    	height: 2px !important;
+    	background: var(--Body-color) !important;
+    	-webkit-transition: 0.4s all ease-in-out !important;
+    	-o-transition: 0.4s all ease-in-out !important;
+    	transition: 0.4s all ease-in-out !important;
+    }
+
+    .offcavas_wrap ul li a:hover::before,
+    .offcavas_wrap ul li a.active::before {
+    	width: 100% !important;
+    }
+
+	.home_wrapper .logo img {
+        max-width: 365px !important;
+    }
+
+	.custom_button_wrapper .button_wrap select, 
+	.custom_button_wrapper .button_wrap input {
+        width: 215px !important;
+    }
+
+	.custom_col {
+        max-width: 33.33333333333333% !important;
+    }
+
+    .apartment_photo_wrapper .row {
+		margin-left: -15px !important;
+		margin-right: -15px !important;
+    }
+
+    .apartment_photo_wrapper .apartment_col {
+	    padding-left: 15px !important;
+	    padding-right: 15px !important;
+	}
+
+	footer {
+		text-align: center !important;
+	}
+
+	footer .footer_absolute {
+		display: none !important;
+	}
+
+	.subscribe_wrapper {
+        display: block !important;
+        padding: 0 20px 50px 20px !important;
+    }
+
+	footer .footer_item .footer_social {
+		margin-left: 0 !important;
+	}
+
+	footer .footer_item .footer_social2 {
+		display: none !important;
+	}
+
+	footer .footer_item .footer_social1 {
+        display: block !important;
+        margin: 60px 0 30px 0 !important;
+    }
+
+	footer .footer_item p br {
+		display: none !important;
+	}
+
+	footer .custom_none {
+		display: none !important;
+	}
+
+	footer .custom_block {
+		display: block !important;
+		text-transform: uppercase !important;
+		padding-bottom: 30px !important;
+	}
+
+	footer .custom_none2 {
+		display: none !important;
+	}
+
+	.active_listings_order1 {
+		-webkit-box-ordinal-group: 2;
+		    -ms-flex-order: 1;
+		        order: 1;
+	}
+
+	.active_listings_order2 {
+		-webkit-box-ordinal-group: 3;
+		    -ms-flex-order: 2;
+		        order: 2;
+	}
+
+	.active_listings_order3 {
+		-webkit-box-ordinal-group: 4;
+		    -ms-flex-order: 3;
+		        order: 3;
+	}
+
+	.active_listings_wrapper .active_listings_form {
+		max-width: 100% !important;
+		margin-top: 20px !important;
+	}
+
+	.about_team_wrapper .about_team_item {
+        max-width: 270px !important;
+    }
+
+	.about_team_wrapper .about_team_item2 {
+        margin: 50px 0px 0 30px !important;
+    }
+
+    .default_wrapper {
+	    margin-top: 70px !important;
+	}
+
+	.communities_wrapper .communities_text_wrap {
+		-webkit-box-orient: vertical !important;
+		-webkit-box-direction: normal !important;
+		    -ms-flex-direction: column !important;
+		        flex-direction: column !important;
+	}
+
+	.communities_wrapper .communitie_box {
+		padding-right: 0 !important;
+	}
+
+	.communities_wrapper .communities_right_box {
+	    display: -webkit-box !important;
+	    display: -ms-flexbox !important;
+	    display: flex !important;
+	    width: 100% !important;
+	    -webkit-box-pack: justify !important;
+	        -ms-flex-pack: justify !important;
+	            justify-content: space-between !important;
+	    -ms-flex-wrap: wrap !important;
+	        flex-wrap: wrap !important;
+	}
+
+	.communities_wrapper .communities_right_box .custom_box2 {
+	    margin-top: 0 !important;
+	}
+
+	.communities_wrapper {
+		padding-bottom: 50px !important;
+	}
+
+	.home_evaluation_wrapper .home_evaluation_wrap label {
+        max-width: 210px !important;
+    }
+
+    .blog_wrapper {
+	    padding-bottom: 50px !important;
+	}
+
+	.blog_wrapper .pagination_wrap {
+		margin-top: 40px !important;
+	}
+
+	.logo_wrapper a img {
+	    max-width: 315px !important;
+	}
+
+	.mortage_calculator_wrapper .payment_output_box {
+	    padding: 45px;
+	    min-height: auto;
+	    margin-top: 50px;
+	}
+
+	.meet_team_wrapper .team_slider .owl-dots {
+        left: 28% !important;
+        bottom: -17% !important;
+    }
+
+	.meet_team_wrapper .team_slider .owl-next {
+        right: 30% !important;
+        bottom: -17% !important;
+    }
+
+    .communities_wrapper .communities_right_box .custom_box {
+        width: 320px !important;
+    }
+
+	.blog_wrapper .blog_wrap .head_text01 {
+        font-size: 23px;
+    }
+
+    .blog_wrapper .blog_wrap .blog_ul01 li, 
+    .blog_wrapper .blog_wrap p, 
+    .blog_wrapper .blog_wrap .blog_ul02 li a {
+	    font-size: 14px;
+	}
+
+	.blog_wrapper .blog_wrap .blog_item img {
+        max-width: 125px !important;
+    }
+
+    .meet_team_wrapper .team_slider .meet_team_item {
+    	width: 100%;
+    }
+
+    .testimonial_wrapper .testimonial_slider .owl-dots {
+	    bottom: -32%;
+	}
+}
+
+/*Medium devices (tablets, 767px and down)*/
+@media (max-width: 767px) {
+
+	.home_wrapper {
+	    background-image: url(../img/mobile_bg.png) !important;
+	    height: 460px !important;
+	    margin-top: 70px !important;
+	}
+	
+	.home_wrapper .logo img {
+        max-width: 250px !important;
+    }
+
+    .home_wrapper .logo,
+    .home_wrapper .home_social {
+    	display: none !important;
+    }
+
+    .custom_button_wrapper .button_wrap select, 
+    .custom_button_wrapper .button_wrap input {
+        width: 235px !important;
+    }
+
+    .meet_team_item {
+	    width: 330px !important;
+	    margin-right: 30px !important;
+	}
+
+	.testimonial_wrapper h2 {
+        font-size: 35px !important;
+    }
+
+	.testimonial_wrapper .testimonial_slider .testimonial_item p {
+		font-size: 18px !important;
+		text-align: left !important;
+	}
+
+	.testimonial_wrapper .testimonial_slider .testimonial_item .head_text01 {
+        font-size: 22px;
+    }
+
+	.custom_mt2 {
+		margin-top: 20px !important;
+	}
+
+	.meet_team_wrapper2 .custom_col {
+        max-width: 50% !important;
+        padding-left: 9px !important;
+        padding-right: 9px !important;
+    }
+
+    .meet_team_wrapper2 .meet_team_item {
+    	width: 100% !important;
+    	margin: 0 !important;
+    }
+
+    .team_item_none {
+    	display: none !important;
+    }
+
+    .communities_wrapper .communities_gallery_wrap {
+    	-webkit-box-orient: vertical !important;
+    	-webkit-box-direction: normal !important;
+    	    -ms-flex-direction: column !important;
+    	        flex-direction: column !important;
+    }
+
+    .communities_wrapper .communities_gallery_wrap figure img {
+    	width: 100% !important;
+    }
+
+    .communities_wrapper .communities_direction {
+    	display: -webkit-box !important;
+    	display: -ms-flexbox !important;
+    	display: flex !important;
+    	-webkit-box-align: center !important;
+    	    -ms-flex-align: center !important;
+    	        align-items: center !important;
+    	-webkit-box-pack: justify !important;
+    	    -ms-flex-pack: justify !important;
+    	        justify-content: space-between !important;
+    }
+
+    .communities_wrapper .communities_direction .mr10 {
+    	margin-right: 10px !important;
+    }
+
+    .communities_wrapper .communities_direction .ml10 {
+    	margin-left: 10px !important;
+    }
+
+	.home_evaluation_wrapper .home_evaluation_wrap label {
+        max-width: 100% !important;
+        margin: 0 0 15px 0 !important;
+        text-align: left !important;
+    }
+
+    .home_evaluation_wrapper .home_evaluation_wrap .home_evaluation_item {
+	    -webkit-box-orient: vertical !important;
+	    -webkit-box-direction: normal !important;
+	        -ms-flex-direction: column !important;
+	            flex-direction: column !important;
+	}
+
+	.home_evaluation_wrapper .home_evaluation_wrap .home_evaluation_item .nice-select {
+		max-width: 100% !important;
+	}
+
+	.home_evaluation_wrapper .home_evaluation_wrap .home_evaluation_item_city input {
+	    max-width: 100% !important;
+	}
+
+	.home_evaluation_wrapper .home_evaluation_wrap .radio_item label {
+		margin: 0 !important;
+	}
+
+	.home_evaluation_wrapper .home_evaluation_wrap .home_evaluation_sub {
+		max-width: 100% !important;
+	}
+
+	.logo_wrapper a img {
+        max-width: 255px !important;
+    }
+
+    .get_touch_wrapper .get_touch_social {
+    	display: none !important;
+    }
+
+    .communities_wrapper .communities_right_box .custom_box2 {
+        margin-top: 40px !important;
+        width: 100%;
+    }
+
+	.meet_team_wrapper .team_slider .owl-dots {
+        left: 20% !important;
+        bottom: -20% !important;
+    }
+
+    .meet_team_wrapper .team_slider .owl-next {
+        right: 23% !important;
+        bottom: -20% !important;
+    }
+
+    .communities_wrapper .communities_right_box .custom_box {
+        width: 100% !important;
+    }
+
+    .head_text02 {
+	    font-size: 35px !important;
+	}
+
+	.testimonial_wrapper {
+	    padding-bottom: 110px !important;
+	}
+
+	.about_team_wrapper .about_team_item {
+        max-width: 258px !important;
+    }
+
+    .about_team_wrapper .about_team_item2 h2 {
+	    font-size: 40px;
+	}
+
+	.about_team_wrapper .about_team_item figure img {
+	    height: 310px;
+	}
+
+}
+
+@media (max-width: 700px) {
+
+	.meet_team_wrapper .meet_team_item {
+        width: 260px !important;
+    }
+
+}
+
+@media (max-width: 599.98px) {
+	.about_team_wrapper .about_team_item {
+        max-width: 100% !important;
+    }
+
+    .about_team_wrapper .about_team_wrap {
+    	flex-direction: column;
+    }
+
+    .about_team_wrapper .about_team_item figure img {
+    	height: 100% !important;
+    }
+
+    .about_team_wrapper .about_team_item2 {
+        margin: 50px 0px 0 0px !important;
+    }
+
+}
+
+/*Small devices (landscape phones, 575px and down)*/
+@media (max-width: 575px) {
+
+	body {
+		font-size: 16px !important;
+	}
+
+	.custom_button_wrapper .button_wrap select, 
+	.custom_button_wrapper .button_wrap input {
+        width: 100% !important;
+    }
+
+    .custom_button_wrapper .button_wrap .search_btn {
+    	width: 48% !important;
+    }
+
+    .custom_button_wrapper .button_wrap .dropdown {
+    	width: 48% !important;
+    }
+
+    .custom_button_wrapper .button_wrap .dropdown button {
+    	width: 100% !important;
+    }
+
+    .custom_btn {
+    	width: 180px !important;
+    	height: 65px !important;
+    	font-size: 16px !important;
+    	font-weight: 400 !important;
+    }
+
+    .mt_55 {
+	    margin-top: 30px !important;
+	}
+
+	.head_text03 {
+		font-size: 16px !important;
+	}
+
+	.slider_wrapper .image_slider .owl-dots .owl-dot {
+	    margin: 0 5px !important;
+	    width: 10px;
+	    height: 10px;
+	}
+
+	.plam_para_wrapper .plam_para_content span, 
+	.plam_para_wrapper .plam_para_content p {
+		font-size: 16px !important;
+	}
+
+	.plam_para_wrapper {
+        background: transparent !important;
+        padding: 0px 20px 0px 20px !important;
+    }
+
+	.plam_para_wrapper .plam_para_content span {
+		color: #000000 !important;
+	}
+
+	.testimonial_wrapper h2 {
+        font-size: 35px !important;
+    }
+
+	.testimonial_wrapper .testimonial_slider .testimonial_item p {
+		font-size: 16px !important;
+		text-align: left;
+	}
+
+	.testimonial_wrapper .testimonial_slider .testimonial_item span {
+		font-size: 18px !important;
+	}
+
+    footer .copyright_text br {
+		display: block !important;
+	}
+
+	.pagination_wrap ul li a {
+	    margin: 0 !important;
+	}
+
+	.default_wrapper {
+	    height: 225px !important;
+	    background-position: right !important;
+	}
+
+	.meet_team_wrapper2 .custom_col {
+        max-width: 100% !important;
+        padding-left: 9px !important;
+        padding-right: 9px !important;
+    }
+
+    .meet_team_wrapper2 .head_text02 {
+	    padding-bottom: 20px !important;
+	}
+
+	.default_wrapper2 {
+		background-position: center !important;
+	}
+
+	.about_team_item .about_team_content {
+		text-align: center !important;
+	}
+
+	.about_team_item .about_team_content .custom_btn {
+        width: 210px !important;
+    }
+
+    .about_team_item .about_team_content ul li a {
+	    font-size: 22px !important;
+	}
+
+	.communities_wrapper .communitie_box h4 {
+		font-size: 18px !important;
+	}
+
+	.communities_wrapper .communitie_box p br {
+		display: none !important;
+	}
+
+	.communities_wrapper .communities_right_box .custom_box {
+        min-height: auto !important;
+        width: 100% !important;
+    }
+
+	.communities_wrapper .communities_right_box .custom_box2 {
+		margin-top: 30px !important;
+		width: 100% !important;
+	}
+
+	.communities_wrapper .communitie_box p {
+	    font-size: 16px !important;
+	}
+
+	.mortage_calculator_wrapper .mortage_calculator_info {
+		margin-top: 30px !important;
+	}
+
+	.mortage_calculator_wrapper .mortage_calculator_info .email_box {
+        height: auto !important;
+        text-align: center !important;
+        border: transparent !important;
+        margin-top: 20px;
+    }
+
+	.mortage_calculator_wrapper .mortage_calculator_info .email_box input {
+        border: 2px solid #D9D9D9 !important;
+        height: 40px !important;
+        position: relative !important;
+        top: auto !important;
+        left: auto !important;
+        bottom: auto !important;
+    }
+
+    .mortage_calculator_wrapper .mortage_calculator_info .email_box button {
+    	position: relative !important;
+    	right: auto !important;
+    	top: auto !important;
+    	bottom: 0 !important;
+    	padding: 0 40px !important;
+    	margin-top: 30px !important;
+    }
+
+    .mortage_calculator_wrapper .payment_output_box {
+	    padding: 30px !important;
+	    min-height: auto !important;
+	}
+
+	.mortage_calculator_wrapper .mortage_calculator_img_wrap {
+		padding: 40px 0 0 0 !important;
+	}
+
+	.home_evaluation_wrapper .home_evaluation_wrap .radio_item {
+	    margin: 0 10px 5px 0 !important;
+	}
+
+	.home_evaluation_wrapper .home_evaluation_wrap .home_evaluation_item_state input {
+	    max-width: 100% !important;
+	}
+
+	.blog_wrapper .blog_wrap .head_text01 {
+		font-size: 20px !important;
+	}
+
+	.blog_wrapper .blog_wrap .blog_ul01 li, 
+	.blog_wrapper .blog_wrap p, 
+	.blog_wrapper .blog_wrap .blog_ul02 li a {
+		font-size: 16px !important;
+	}
+
+	.blog_wrapper .blog_img_mini {
+		display: block !important;
+	}
+
+	.blog_wrapper .blog_img {
+		display: none !important;
+	}
+
+	.get_touch_wrapper .head_text02 {
+	    padding-bottom: 25px !important;
+	}
+
+	.get_touch_wrapper form textarea {
+	    padding-top: 20px !important;
+	    height: 100px !important;
+	}
+
+	.get_touch_wrapper form input, 
+	.get_touch_wrapper form textarea {
+	    height: 50px !important;
+	    font-size: 14px !important;
+	}
+
+	.get_touch_wrapper form button {
+		height: 50px !important;
+		font-size: 14px !important;
+	}
+
+	.get_touch_wrapper h3 {
+		font-size: 30px !important;
+	}
+
+	header .header_social li {
+        margin-right: 15px !important;
+    }
+
+    header .mobile_logo {
+        padding-right: 25px !important;
+    }
+
+    .blog_wrapper .blog_wrap .head_text01 br {
+    	display: none;
+    }
+
+    .mortage_calculator_wrapper form {
+        padding: 20px 0 0 0 !important;
+    }
+
+    .head_text01 {
+    	font-size: 27px !important;
+    }
+
+    .custom_button_wrapper .button_wrap .nice-select {
+	    width: 100%;
+	}
+
+	.meet_team_wrapper .team_slider .owl-dots {
+        bottom: -19% !important;
+    }
+
+	.meet_team_wrapper .team_slider .owl-next {
+        bottom: -19% !important;
+    }
+
+    .meet_team_wrapper .meet_team_item figure img {
+	    height: 330px;
+	}
+
+	.meet_team_wrapper .team_slider .meet_team_item {
+        width: 100% !important;
+    }
+
+    .meet_team_wrapper .custom_btn {
+	    margin-top: 120px;
+	}
+
+	.newsletter_mt {
+		margin-top: 25px !important;
+	}
+
+	.communities_wrapper .communitie_box .head_text01 {
+	    font-size: 23px !important;
+	}
+
+	.communities_wrapper .communities_gallery_wrap {
+		display: none;
+	}
+
+	.communities_wrapper .communities_slider {
+		display: block !important;
+	}
+
+	.home_evaluation_wrapper .home_evaluation_wrap p, 
+	.home_evaluation_wrapper .home_evaluation_wrap label {
+	    font-size: 16px;
+	}
+
+	.home_evaluation_wrapper .home_evaluation_wrap .g-recaptcha iframe,
+	.home_evaluation_wrapper .home_evaluation_wrap .g-recaptcha div {
+		width: 100% !important;
+	}
+
+	.mortage_calculator_wrapper .payment_output_box p {
+	    font-size: 14px;
+	}
+
+	.mortage_calculator_wrapper .mortage_rate_wrap p, 
+	.mortage_calculator_wrapper .mortage_rate_wrap span {
+	    font-size: 12px;
+	}
+
+	.mortage_calculator_wrapper .mortage_rate_wrap {
+	    margin: 50px auto 0 auto;
+	}
+
+	footer .footer_item span, 
+	footer .footer_item p, 
+	footer .footer_item .link {
+        font-size: 16px;
+    }
+
+    .about_team_wrapper .about_team_item2 p {
+    	font-size: 16px !important;
+    }
+
+    .meet_team_wrapper2 .meet_team_item {
+    	width: 100% !important;
+    }
+
+    .about_team_wrapper .about_team_item2 h2 {
+	    font-size: 40px !important;
+	}
+
+	.meet_team_wrapper .team_slider .owl-dots {
+        left: 4.5% !important;
+    }
+    
+	.meet_team_wrapper .team_slider .owl-next {
+        right: 4.5% !important;
+    }
+
+    .testimonial_wrapper .testimonial_slider .owl-dots .owl-dot {
+	    width: 10px;
+	    height: 10px;
+	    margin: 0 5px;
+	}
+
+}

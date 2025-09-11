@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+
+   <head>
+      <meta charset="utf-8">
+      <meta name="description" content="Palm - Corporate HTML5 Template">
+      <meta name="keywords" content="app, landing, corporate, Creative, Html Template, Template">
+      <meta name="author" content="Freator">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+
+      <!-- title -->
+      <title>Buyers Page | Palm - Corporate HTML5 Template</title>
+
+      <!-- favicon -->
+      <link href="img/logo.svg" type="image/png" rel="icon">
+
+      <!-- all css here -->
+      <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+      <link href="css/fontawesome.min.css" rel="stylesheet" type="text/css" />
+      <link href="css/nice-select.css" rel="stylesheet" type="text/css" />
+      <link href="css/style.css" rel="stylesheet" type="text/css" />
+      <link href="css/responsive.css" rel="stylesheet" type="text/css" />
+   </head>
+
+   <body>
+
+      <!-- Preloader Start -->
+      <div id="preloader">
+         <div class="loader3">
+            <span></span>
+            <span></span>
+         </div>
+      </div>
+      <!-- Preloader End -->
+
+      <!-- header section start -->
+      <header>
+         <div class="container">
+            <nav>
+               <ul class="menu">
+                  <li><a href="/">PALM REALTY</a></li>
+                  <li><a href="active_listings.html">ACTIVE LISTINGS</a></li>
+                  <li><a href="our_team.html">OUR TEAM</a></li>
+                  <li><a href="about_team_member.html">ABOUT US</a></li>
+                  <li><a href="home_evaluation_page.html">HOME EVALUATION</a></li>
+                  <li class="dropdown_wrap position-relative">
+                     <a href="communities_page.html">COMMUNITIES <i class="fas fa-chevron-down"></i></a>
+                     <ul class="sub_menu">
+                        <li><a class="active" href="buyers_page.html">Buyers Page</a></li>
+                        <li><a href="communities_page.html">Communities Page</a></li>
+                        <li><a href="#">Test item 01</a></li>
+                        <li><a href="#">Test item 02</a></li>
+                     </ul>
+                  </li>
+                  <li><a href="blog_page.html">BLOG</a></li>
+                  <li><a href="contact_page.html">CONTACT</a></li>
+               </ul>
+               <ul class="header_social">
+                  <li><a href="#"><img class="img-fluid" src="img/header_social_icon02.svg"
+                           alt="header_social_icon02"></a></li>
+                  <li><a href="#"><img class="img-fluid" src="img/header_social_icon01.svg"
+                           alt="header_social_icon01"></a></li>
+               </ul>
+               <a href="#" class="mobile_logo"><img class="img-fluid" src="img/mobile_logo.svg" alt="mobile_logo"></a>
+               <div class="hamburger_menu">
+                  <span class="line_top"></span>
+                  <span class="line_center"></span>
+                  <span class="line_bottom"></span>
+               </div>
+            </nav>
+         </div>
+      </header>
+      <!-- header section end -->
+
+      <!-- offcavas menu start -->
+      <div class="offcavas_wrap">
+         <ul>
+            <li><a href="#">PALM REALTY</a></li>
+            <li><a href="active_listings.html">ACTIVE LISTINGS</a></li>
+            <li><a href="our_team.html">OUR TEAM</a></li>
+            <li><a href="about_team_member.html">ABOUT US</a></li>
+            <li><a href="home_evaluation_page.html">HOME EVALUATION</a></li>
+            <li>
+               <a data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false"
+                  aria-controls="collapseExample">COMMUNITIES <i class="fas fa-chevron-down"></i></a>
+               <ul class="collapse" id="collapseExample">
+                  <li><a class="active" href="buyers_page.html">Buyers Page</a></li>
+                  <li><a href="communities_page.html">Communities Page</a></li>
+                  <li><a href="#">Test item 01</a></li>
+                  <li><a href="#">Test item 02</a></li>
+               </ul>
+            </li>
+            <li><a href="blog_page.html">BLOG</a></li>
+            <li><a href="contact_page.html">CONTACT</a></li>
+         </ul>
+      </div>
+      <!-- offcavas menu end -->
+
+      <!-- default section start -->
+      <div class="default_wrapper default_wrapper2" style="background-image: url(./img/default_img04.png);"></div>
+      <!-- default section end -->
+
+      <!-- mortage calculator area start -->
+      <div class="mortage_calculator_wrapper overflow-hidden">
+         <div class="container">
+            <div class="row align-items-center">
+               <div class="col-12 text-center">
+                  <h2 class="head_text02">Real Estate Mortage Calculator</h2>
+               </div>
+               <div class="col-lg-7">
+                  <form>
+                     <div class="row">
+                        <div class="col-sm-6">
+                           <div class="mortage_calculator_info">
+                              <label>Purchase Price</label>
+                              <div class="mortage_calculator_item">
+                                 <span>$</span>
+                                 <input type="numner" value="250,000">
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-sm-6">
+                           <div class="mortage_calculator_info">
+                              <label>Mortage Team</label>
+                              <select>
+                                 <option>30 Years</option>
+                                 <option>32 Years</option>
+                                 <option>34 Years</option>
+                                 <option>36 Years</option>
+                              </select>
+                           </div>
+                        </div>
+                        <div class="col-sm-6">
+                           <div class="mortage_calculator_range mt_30">
+                              <div>
+                                 <div class="d-flex align-items-center justify-content-between">
+                                    <label>Down Payment ($)</label>
+                                    <div class="value">12500</div>
+                                 </div>
+                                 <div class="mt_10">
+                                    <input type="range" min="0" max="15000" value="4000" class="slider" id="range">
+                                 </div>
+                              </div>
+                              <span class="percent d-block mt_20">5%</span>
+                           </div>
+                        </div>
+                        <div class="col-sm-6">
+                           <div class="mortage_calculator_range mt_30">
+                              <div>
+                                 <div class="d-flex align-items-center justify-content-between">
+                                    <label>Annual Taxes ($)</label>
+                                    <div class="value2">10</div>
+                                 </div>
+                                 <div class="mt_10">
+                                    <input type="range" min="0" max="15000" value="1000" class="slider2" id="range2">
+                                 </div>
+                              </div>
+                              <span class="percent d-block mt_20">1%</span>
+                           </div>
+                        </div>
+                        <div class="col-lg-12">
+                           <div class="mortage_calculator_range mt_30">
+                              <label>Interest Rate (%)</label>
+                              <div class="mt_10">
+                                 <input type="range" min="0" max="15000" value="1000" class="slider3" id="range3">
+                              </div>
+                              <div class="value3">10</div>
+                              <span class="percent d-block mt_20">5%</span>
+                           </div>
+                        </div>
+                        <div class="col-sm-6">
+                           <div class="mortage_calculator_info mt_30">
+                              <label>Annual Insurance</label>
+                              <div class="mortage_calculator_item">
+                                 <span>$</span>
+                                 <input type="numner" value="600">
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-sm-6">
+                           <div class="mortage_calculator_info mt_30">
+                              <label>Monthly HOA</label>
+                              <div class="mortage_calculator_item">
+                                 <span>$</span>
+                                 <input type="numner" value="50">
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-lg-12">
+                           <div class="mortage_calculator_info mt_30">
+                              <label>Want a Copy of the Results?</label>
+                              <div class="email_box">
+                                 <input type="search" placeholder="Enter your email address">
+                                 <button>Send Results</button>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </form>
+               </div>
+               <div class="col-lg-5">
+                  <div class="payment_output_box">
+                     <h3 class="text-white">$1,583,33</h3>
+                     <h4 class="text-white mt_20">MONTHLY PAYMENT</h4>
+                     <div class="mt_15 d-flex align-items-center justify-content-between">
+                        <p class="text-white">Principal & Interest</p>
+                        <span class="text-white">$1,275</span>
+                     </div>
+                     <div class="mt_15 d-flex align-items-center justify-content-between">
+                        <p class="text-white">Monthly Taxes</p>
+                        <span class="text-white">$208.33</span>
+                     </div>
+                     <div class="mt_15 d-flex align-items-center justify-content-between">
+                        <p class="text-white">Monthly HOA</p>
+                        <span class="text-white">$50</span>
+                     </div>
+                     <div class="mt_15 d-flex align-items-center justify-content-between">
+                        <p class="text-white">Monthly Insurance</p>
+                        <span class="text-white">$50.00</span>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="mortage_calculator_img_wrap text-center">
+               <figure class="m-0">
+                  <img class="img-fluid" src="img/mortage_calculator_img.png" alt="mortage_calculator_img">
+               </figure>
+               <div class="mortage_rate_wrap">
+                  <div class="text-center">
+                     <h2>Florida Mortgage Rates</h2>
+                  </div>
+                  <div class="mortage_rate_box">
+                     <div class="text-start">
+                        <h3>Program</h3>
+                        <p>30 Year Fixed Conforming</p>
+                        <p>15 Year Fixed Conforming</p>
+                        <p>5/1 Year ARM Conforming</p>
+                        <span>Last Updated: 10/10/2024</span>
+                     </div>
+                     <div class="mortage_rate_item d-flex align-items-start">
+                        <div class="text-start ml_15">
+                           <h3>Rates</h3>
+                           <span>7.057%</span>
+                           <span>6.136%</span>
+                           <span>6.391%</span>
+                        </div>
+                        <div class="text-start ml_15">
+                           <h3>APR</h3>
+                           <span>7.079%</span>
+                           <span>6.171%</span>
+                           <span>6.404%</span>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- mortage calculator area end -->
+
+
+      <!-- subscribe area start -->
+      <div class="subscribe_wrapper section_padding overflow-hidden">
+         <div class="container">
+            <div class="text-center">
+               <h2 class="head_text02">Subscribe to Our Newsletter</h2>
+            </div>
+            <div class="subscribe_wrap">
+               <form>
+                  <div class="row">
+                     <div class="col-sm-6">
+                        <div>
+                           <label for="a">Name</label>
+                           <input id="a" type="text" placeholder="Value">
+                        </div>
+                     </div>
+                     <div class="col-sm-6">
+                        <div class="newsletter_mt">
+                           <label for="b">Surname</label>
+                           <input id="b" type="text" placeholder="Surname">
+                        </div>
+                     </div>
+                     <div class="col-lg-12">
+                        <div class="mt_25">
+                           <label for="c">Email</label>
+                           <input id="c" type="text" placeholder="Value">
+                        </div>
+                     </div>
+                     <div class="col-12">
+                        <div class="mt_25">
+                           <label for="d">Message</label>
+                           <textarea id="d"></textarea>
+                        </div>
+                        <div class="mt_25">
+                           <button>Submit</button>
+                        </div>
+                     </div>
+                  </div>
+               </form>
+            </div>
+         </div>
+      </div>
+      <!-- subscribe area end -->
+
+      <!-- footer area start -->
+      <footer class="overflow-hidden">
+         <div class="container position-relative">
+            <div class="row">
+               <div class="col-xl-12">
+                  <div class="footer_item">
+                     <a class="footer_logo d-block" href="index.html"><img class="img-fluid" src="img/footer_logo.svg"
+                           alt="footer_logo"></a>
+                     <ul class="footer_social footer_social1 mt_30">
+                        <li><a href="#"><img class="img-fluid" src="img/home_social_icon01.svg"
+                                 alt="home_social_icon01"></a></li>
+                        <li><a href="#"><img class="img-fluid" src="img/home_social_icon02.svg"
+                                 alt="home_social_icon02"></a></li>
+                        <li><a href="#"><img class="img-fluid" src="img/home_social_icon03.svg"
+                                 alt="home_social_icon03"></a></li>
+                        <li><a href="#"><img class="img-fluid" src="img/home_social_icon04.svg"
+                                 alt="home_social_icon04"></a></li>
+                     </ul>
+                     <span class="d-block text-white custom_none mt_30">Palm Realty</span>
+                     <span class="d-block text-white custom_block mt_30">Contact</span>
+                     <p class="text-white">225 5th Ave. Suite 7<br>Indialantic, FL 32903</p>
+                     <a class="link text-white d-block mt_30" href="tel:(321) 722-7777">(321) 722-7777</a>
+                     <div class="d-flex align-items-center flex-wrap">
+                        <p class="text-white mt_30">Palm Realty hereby discloses to all prospective sellers and
+                           buyers<br>that broker compensation is not set by law and is fully negotiable.</p>
+                        <ul class="footer_social footer_social2 mt_30">
+                           <li><a href="#"><img class="img-fluid" src="img/home_social_icon01.svg"
+                                    alt="home_social_icon01"></a></li>
+                           <li><a href="#"><img class="img-fluid" src="img/home_social_icon02.svg"
+                                    alt="home_social_icon02"></a></li>
+                           <li><a href="#"><img class="img-fluid" src="img/home_social_icon03.svg"
+                                    alt="home_social_icon03"></a></li>
+                           <li><a href="#"><img class="img-fluid" src="img/home_social_icon04.svg"
+                                    alt="home_social_icon04"></a></li>
+                        </ul>
+                     </div>
+                     <p class="copyright_text text-white mt_30">Copyright © 2025<br> <a class="text-white" href="#">Palm
+                           Realty</a> - All Rights Reserved.</p>
+                     <p class="text-white custom_none2 mt_30">Palm Realty hereby discloses to all prospective sellers
+                        and buyers that broker compensation is not set by law and is fully negotiable. Copyright © 2025
+                        Palm Realty - All Rights Reserved.</p>
+                  </div>
+               </div>
+               <div class="col-xl-6 col-lg-8 footer_absolute">
+                  <form>
+                     <h3 class="text-white">Subscribe to Our Newsletter</h3>
+                     <div class="d-flex align-items-center">
+                        <input class="mr_5" type="text" placeholder="First Name">
+                        <input class="ml_5" type="text" placeholder="Last Name">
+                     </div>
+                     <div class="d-flex align-items-center">
+                        <input class="mr_5" type="text" placeholder="Email Address">
+                        <button class="ml_5">Submit</button>
+                     </div>
+                  </form>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <!-- footer area end -->
+
+      <!-- back to top start -->
+      <a href="#" class="back-to-top"><i class="fal fa-angle-up"></i></a>
+      <!-- back to top end -->
+
+
+      <!-- all js here -->
+      <script src="js/jquery-3.4.1.min.js"></script>
+      <script src="js/plugins.js"></script>
+      <script src="js/main.js"></script>
+      <script>
+
+
+         // select start   
+         $('.mortage_calculator_info select').niceSelect();
+
+         // range slider 01
+         let slider = document.getElementById("range");
+         let value = document.querySelector(".value");
+         value.innerHTML = slider.value; // Display the default slider value
+
+         function calcValue() {
+            valuePercentage = (slider.value / slider.max) * 100;
+            slider.style.background = `linear-gradient(to right, #243961 ${valuePercentage}%, #ebe9e7 ${valuePercentage}%)`;
+         }
+
+         // Update the current slider value (each time you drag the slider handle)
+         slider.addEventListener('input', function () {
+            calcValue();
+            value.textContent = this.value;
+         })
+
+         calcValue();
+
+
+         // range slider 02
+         let slider2 = document.getElementById("range2");
+         let value2 = document.querySelector(".value2");
+         value2.innerHTML = slider2.value; // Display the default slider value
+
+         function calcValue2() {
+            valuePercentage2 = (slider2.value / slider2.max) * 100;
+            slider2.style.background = `linear-gradient(to right, #243961 ${valuePercentage2}%, #ebe9e7 ${valuePercentage2}%)`;
+         }
+
+         // Update the current slider value (each time you drag the slider handle)
+         slider2.addEventListener('input', function () {
+            calcValue2();
+            value2.textContent = this.value;
+         })
+
+         calcValue2();
+
+
+         // range slider 03
+         let slider3 = document.getElementById("range3");
+         let value3 = document.querySelector(".value3");
+         value3.innerHTML = slider3.value; // Display the default slider value
+
+         function calcValue3() {
+            valuePercentage3 = (slider3.value / slider3.max) * 100;
+            slider3.style.background = `linear-gradient(to right, #243961 ${valuePercentage3}%, #ebe9e7 ${valuePercentage3}%)`;
+         }
+
+         // Update the current slider value (each time you drag the slider handle)
+         slider3.addEventListener('input', function () {
+            calcValue3();
+            value3.textContent = this.value;
+         })
+
+         calcValue3();
+
+      </script>
+   </body>
+
+</html>
