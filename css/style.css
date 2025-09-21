@@ -1024,7 +1024,7 @@ header .mobile_logo {
     12.5 image parallax css
 =============================*/
 .parallax-section {
-  background-image: url("/palmrealty/img/background_image.png"); /* Replace with your image path */
+  background-image: url("/img/background_image.png"); /* Replace with your image path */
   min-height: 100vh; /* Adjust height as needed */
   background-attachment: fixed;
   background-position: center;
