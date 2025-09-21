@@ -795,6 +795,7 @@ header .mobile_logo {
    09. about section css
 ========================*/
 .about_section_wrapper .container {
+  /* max-width: 1350px !important;  */
   max-width: 1350px !important;
 }
 
@@ -1017,6 +1018,19 @@ header .mobile_logo {
 
 .slider_wrapper .image_slider .owl-dots .owl-dot.active {
   background: var(--Custom-color1) !important;
+}
+
+/*===========================
+    12.5 image parallax css
+=============================*/
+.parallax-section {
+  background-image: url("/palmrealty/img/background_image.png"); /* Replace with your image path */
+  min-height: 100vh; /* Adjust height as needed */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; /* Essential for containing overlay content */
 }
 
 /*===========================
