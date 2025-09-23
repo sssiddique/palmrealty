@@ -216,7 +216,7 @@
     //11. aos animation area start
     setTimeout(function () {
       AOS.init({
-        duration: 1000,
+        duration: 700,
         once: true,
       });
     }, 600);
