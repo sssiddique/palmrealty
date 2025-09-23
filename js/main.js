@@ -148,15 +148,15 @@
     //09. team slider start
     function team_carouselInit() {
       $(".owl-carousel.team_slider").owlCarousel({
-        dots: true,
-        dotsData: true,
+        dots: false,
+        // dotsData: true,
         loop: true,
         margin: 20,
         stagePadding: 0,
         autoWidth: true,
         autoplay: true,
-        nav: true,
-        navText: ["<span>Previous</span>", "<span>Next</span>"],
+        //nav: true,
+        // navText: ["<span>Previous</span>", "<span>Next</span>"],
         autoplayTimeout: 5000,
         smartSpeed: 3000,
         autoplayHoverPause: false,
