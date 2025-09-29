@@ -8,10 +8,10 @@
     
     All include section: 
 
-    01. Google fonts
-    02. Basic css
-    03. Preloader css
-    04. hamberger css
+  01. Google fonts
+  02. Basic css
+  03. Preloader css
+  04. hamberger css
 	05. header section css
 	06. home section css
 	07. custom button section css
@@ -37,6 +37,7 @@
 	27. about section 02 css
 	28. logo section css
 	29. back to top css
+  30. Blog Area Cards CSS
 
 
 ===========================================
@@ -2403,4 +2404,86 @@ footer .footer_item .footer_logo2 img {
 
 .back-to-top i {
   color: #ffffff;
+}
+
+/*========================
+ 30. Blog area cards CSS
+ =========================*/
+.card {
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card-title {
+  font-size: var(--font-size05);
+}
+
+.card-text {
+  font-family: var(--Body-font);
+  font-size: 18px;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 165px;
+  object-fit: cover;
+  repeat: no-repeat;
+}
+
+.card-body {
+  display: flex; /* 1. Enable Flexbox */
+  flex-direction: column; /* 2. Arrange items vertically (in a column) */
+  row-gap: 10px;
+}
+
+.card:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 20px 20px rgba(0, 0, 0, 0.05);
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.blog-button {
+  background-color: transparent;
+  font-size: 18px;
+  font-weight: 500;
+  color: #243961;
+  text-align: left;
+  padding: 0px;
+  border: 0px;
+  cursor: pointer;
+}
+
+.blog-button:hover {
+  background-color: transparent;
+  font-size: 18px;
+  font-weight: 500;
+  color: #010102;
+  text-align: left;
+  padding: 0px;
+  border: 0px;
+}
+
+.blog-button:focus-visible {
+  background-color: transparent;
+  font-size: 18px;
+  font-weight: 500;
+  color: #010102;
+  text-align: left;
+  padding: 0px;
+  border: 0px !important;
+  box-shadow: none !important;
+}
+
+.blog-button:active {
+  background-color: transparent !important;
+  font-size: 18px;
+  font-weight: 500;
+  color: #010102 !important;
+  text-align: left;
+  padding: 0px;
+  border: 0px !important;
+  box-shadow: none !important;
 }
